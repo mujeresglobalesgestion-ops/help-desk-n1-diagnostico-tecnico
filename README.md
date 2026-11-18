@@ -1,23 +1,37 @@
-# Diagnóstico técnico básico — Windows y conectividad
+# 🖥️ Diagnóstico técnico | Soporte TI N1
 
-Portafolio de formación en soporte TI de primer nivel (N1), enfocado en procedimientos reproducibles y documentación de resultados.
+**Portafolio práctico de aprendizaje · Windows · Redes básicas · Nivel inicial**
 
-**Proyecto independiente** del [simulador de tickets Help Desk N1](https://github.com/mujeresglobalesgestion-ops/help-desk-n1-simulador-tickets).
+![Estado](https://img.shields.io/badge/Estado-Pruebas%20pendientes-f59e0b) ![Entorno](https://img.shields.io/badge/Entorno-Windows-2563eb) ![Nivel](https://img.shields.io/badge/Nivel-Soporte%20N1-64748b)
 
-## Procedimientos de laboratorio
-- [DIAG-001 — Rendimiento lento en Windows](procedimientos/DIAG-001-rendimiento-windows.md)
-- [DIAG-002 — Conectividad básica en Windows](procedimientos/DIAG-002-conectividad-windows.md)
+> **Propósito:** desarrollar procedimientos seguros, ejecutarlos en un equipo autorizado y documentar resultados observables. Las pruebas no realizadas se mantienen explícitamente pendientes.
 
-## Metodología
-1. Definir síntoma y alcance.
-2. Establecer comprobaciones seguras y autorizadas.
-3. Ejecutar pruebas en un equipo o red de práctica.
-4. Registrar resultados observados y evidencias anonimizadas.
-5. Diferenciar hipótesis de causas verificadas.
-6. Documentar conclusión o criterio de escalamiento.
+## 🧭 Navegación
+| Procedimiento | Herramientas previstas | Estado |
+|---|---|---|
+| [DIAG-001 — Rendimiento de Windows](procedimientos/DIAG-001-rendimiento-windows.md) | Administrador de tareas, Almacenamiento | Pendiente de ejecución |
+| [DIAG-002 — Conectividad básica](procedimientos/DIAG-002-conectividad-windows.md) | `ipconfig`, `ping`, `nslookup` | Pendiente de ejecución |
+| [Simulador de tickets](https://github.com/mujeresglobalesgestion-ops/help-desk-n1-simulador-tickets) | Atención por chat y correo | Proyecto independiente |
 
-## Estado
-**En desarrollo:** los dos procedimientos están escritos, pero sus pruebas técnicas están pendientes de ejecución y verificación. No se atribuyen resultados inexistentes.
+## 🔎 Método de diagnóstico
 
-## Seguridad
-No subir contraseñas, códigos MFA, direcciones IP internas, nombres de equipos empresariales ni datos personales. Los ejemplos no son procedimientos oficiales de NTT DATA.
+```mermaid
+flowchart TD
+ A[Describir síntoma] --> B[Confirmar alcance y autorización]
+ B --> C[Ejecutar comprobaciones seguras]
+ C --> D[Registrar resultados reales]
+ D --> E{¿Evidencia suficiente?}
+ E -->|Sí| F[Documentar conclusión]
+ E -->|No| G[Indicar límites y escalar]
+```
+
+## 📋 Evidencias
+Las tablas de cada procedimiento se completarán con resultados obtenidos durante la práctica. Se podrán añadir capturas **anonimizadas** cuando existan. No se publicarán direcciones IP internas, nombres de equipos, credenciales ni datos personales.
+
+## 🎯 Competencias a demostrar
+Observación de CPU, memoria y disco · almacenamiento · conectividad local · configuración IP · resolución DNS · documentación y escalamiento.
+
+## 📌 Estado y cierre
+**En desarrollo.** Procedimientos redactados; falta ejecutar y documentar ambos laboratorios en un equipo propio o autorizado. Un resultado inconcluso puede documentarse válidamente, sin inventar una reparación.
+
+*Proyecto educativo independiente. No representa procedimientos oficiales de NTT DATA.*
