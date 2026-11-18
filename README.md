@@ -34,4 +34,4 @@ Observación de CPU, memoria y disco · almacenamiento · conectividad local · 
 ## 📌 Estado y cierre
 **En desarrollo.** Procedimientos redactados; falta ejecutar y documentar ambos laboratorios en un equipo propio o autorizado. Un resultado inconcluso puede documentarse válidamente, sin inventar una reparación.
 
-*Proyecto educativo independiente. No representa procedimientos oficiales de NTT DATA.*
+*Proyecto educativo independiente. No representa procedimientos oficiales de ninguna empresa.*
